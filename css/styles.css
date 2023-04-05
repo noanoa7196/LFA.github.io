@@ -49,3 +49,11 @@ body {
     margin-left: 0.38em;
     margin-top: -0.25em;
   }  
+  .dropdown {
+    /* ... */
+    transition: height ease 0.2s;
+  }
+  .arrow {
+    /* ... */
+    transition: transform 100ms ease-in-out;
+  }
