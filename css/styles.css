@@ -32,3 +32,20 @@ body {
     display: block;
   }
   
+
+  .dropdown {
+    /* ... */
+    height: 0;
+    overflow: hidden;
+  }
+  .arrow {
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 0.15em solid currentColor;
+    border-bottom: 0.15em solid currentColor;
+    transform: rotate(-45deg);
+    margin-left: 0.38em;
+    margin-top: -0.25em;
+  }  
