@@ -83,3 +83,26 @@ body {
    margin-top: 4px;
   }
  }
+ .arrow {
+  width: 0.5em;
+  height: 0.5em;
+  display: inline-block;
+  vertical-align: middle;
+  border-left: 0.15em solid currentColor;
+  border-bottom: 0.15em solid currentColor;
+  transform: rotate(-45deg);
+  margin-left: 0.38em;
+  margin-top: -0.25em;
+}
+input[type="checkbox"]:checked ~ nav > ul {
+  /* ... */
+  transform: translateY(0);
+}
+.dropdown {
+  /* ... */
+  transition: height ease 0.2s;
+}
+.arrow {
+  /* ... */
+  transition: transform 100ms ease-in-out;
+}
