@@ -21,6 +21,16 @@ body {
     padding: 0 10px;
   }
 
+  .navbar li{
+    display: inline-block;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    width: 100%;
+    display: block;
+  }
   nav{
     width: 100%;
     display:flex;
