@@ -32,7 +32,16 @@ body {
     display: block;
   }
   
-
+  .menus {
+    /* ... */
+    /* smooth transitioning */
+    transform: translateY(-1em);
+    transition: transform ease 0.2s;
+  }
+  input[type="checkbox"]:checked ~ nav > ul {
+    /* ... */
+    transform: translateY(0);
+  }
   .dropdown {
     /* ... */
     text-align: center;
