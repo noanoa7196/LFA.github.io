@@ -40,7 +40,11 @@ body {
     height: 90px;
     background-color: #e9e9ea;
     text-align:center;
-  }
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
   .footer-text {
     text-decoration: none;
@@ -51,12 +55,5 @@ body {
     display: block;
   }
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  
  
   
