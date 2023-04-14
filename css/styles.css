@@ -40,15 +40,15 @@ body {
     height: 90px;
     background-color: #D0DAEE;
     text-align:center;
-z
   }
 
   .footer-text {
-    text-align:none;
-    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 25px;
     width: 100%;
-    padding: 0 10px;
-    
+    display: block;
   }
   
   a.menu:hover {
