@@ -32,4 +32,12 @@ body {
     display: block;
   }
   
+  .footer{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    width: 100%;
+    display: block;
+  }
  
